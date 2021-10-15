@@ -1,14 +1,7 @@
-connection: "snowplow_snplow5"
-
 label: "Snowplow Looker Model"
 
 # include all the views
-include: "/views/**/*.view"
-
-datagroup: snowplow-looker_default_datagroup {
-  # sql_trigger: SELECT MAX(id) FROM etl_log;;
-  max_cache_age: "1 hour"
-}
+include: "/views/**/*.view
 
 persist_with: snowplow-looker_default_datagroup
 
