@@ -1,3 +1,5 @@
+connection: "snowplow_snplow5"
+
 label: "Snowplow Looker Model"
 
 # include all the views
